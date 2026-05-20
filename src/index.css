@@ -938,3 +938,16 @@ footer {
     box-shadow: 0 0 0 7px rgba(34, 197, 94, 0);
   }
 }
+
+.secondary-project-link {
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.58);
+  color: #17314a;
+  border: 1px solid rgba(15, 104, 216, 0.16);
+  box-shadow: none;
+}
+
+.secondary-project-link:hover {
+  background: rgba(255, 255, 255, 0.82);
+  color: #0f68d8;
+}

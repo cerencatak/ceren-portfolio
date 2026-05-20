@@ -11,7 +11,9 @@ const projectsData = {
       text: "A Web GIS-based environmental monitoring platform developed to analyze long-term lake area changes in Türkiye using satellite imagery and geospatial data. Landsat and Sentinel-2 datasets were processed through Google Earth Engine, and NDWI/MNDWI indices were used for surface water extraction and temporal change detection.",
       tags: ["Web GIS", "Remote Sensing", "Google Earth Engine", "NDWI", "Leaflet"],
       link: "https://turkiyelake.com",
-      linkText: "Visit Project",
+      linkText: "Visit Website",
+      github: "https://github.com/cerencatak/Bitirme-Projesi.git",
+      githubText: "View Project",
     },
     {
       title: "FIG Web GIS Project",
@@ -45,7 +47,9 @@ const projectsData = {
       text: "Türkiye’deki göllerin uzun dönemli alan değişimlerini uydu görüntüleri ve coğrafi veriler kullanarak analiz etmek amacıyla Web GIS tabanlı bir çevresel izleme platformu geliştirildi. Landsat ve Sentinel-2 verileri Google Earth Engine üzerinden işlendi; NDWI/MNDWI su indeksleri kullanılarak su yüzeyi çıkarımı ve zamansal değişim analizi yapıldı.",
       tags: ["Web GIS", "Uzaktan Algılama", "Google Earth Engine", "NDWI", "Leaflet"],
       link: "https://turkiyelake.com",
-      linkText: "Projeyi Gör",
+      linkText: "Web Sitesini Ziyaret et",
+      github: "https://github.com/cerencatak/Bitirme-Projesi.git",
+      githubText: "Projeyi Gör",
     },
     {
       title: "FIG Web GIS Projesi",
@@ -530,6 +534,16 @@ function App() {
             className="project-link"
           >
             {project.linkText || "Visit Project"}
+          </a>
+        )}
+        {project.github && (
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noreferrer"
+            className="project-link secondary-project-link"
+          >
+            {project.githubText || "View Project"}
           </a>
         )}
       </article>
