@@ -6,7 +6,7 @@ import ceroAvatar from "./assets/cero-avatar.png";
 const projectsData = {
   en: [
     {
-      title: "Turkey Lakes Monitoring Platform",
+      title: "Türkiye Lakes Monitoring Platform",
       type: "Graduation Project",
       text: "A Web GIS-based environmental monitoring platform developed to analyze long-term lake area changes in Türkiye using satellite imagery and geospatial data. Landsat and Sentinel-2 datasets were processed through Google Earth Engine, and NDWI/MNDWI indices were used for surface water extraction and temporal change detection.",
       tags: ["Web GIS", "Remote Sensing", "Google Earth Engine", "NDWI", "Leaflet"],
@@ -42,7 +42,7 @@ const projectsData = {
 
   tr: [
     {
-      title: "Turkey Lakes Monitoring Platform",
+      title: "Türkiye Lakes Monitoring Platform",
       type: "Bitirme Projesi",
       text: "Türkiye’deki göllerin uzun dönemli alan değişimlerini uydu görüntüleri ve coğrafi veriler kullanarak analiz etmek amacıyla Web GIS tabanlı bir çevresel izleme platformu geliştirildi. Landsat ve Sentinel-2 verileri Google Earth Engine üzerinden işlendi; NDWI/MNDWI su indeksleri kullanılarak su yüzeyi çıkarımı ve zamansal değişim analizi yapıldı.",
       tags: ["Web GIS", "Uzaktan Algılama", "Google Earth Engine", "NDWI", "Leaflet"],
@@ -73,6 +73,7 @@ const projectsData = {
       tags: ["Dashboard", "İzleme", "GIS", "UI/UX", "Görselleştirme"],
       link: "/omni-monitor.pdf",
       linkText: "Projeyi Gör",
+      
     },
   ],
 };
@@ -271,7 +272,7 @@ const assistantAnswers = [
   {
     keywords: ["project", "projects", "proje", "projeler"],
     answer:
-      "Ceren has worked on Web GIS and geospatial projects such as Turkey Lakes Monitoring Platform, FIG Web GIS Project, Hacettepe Social, and Omni Monitor.",
+      "Ceren has worked on Web GIS and geospatial projects such as Türkiye Lakes Monitoring Platform, FIG Web GIS Project, Hacettepe Social, and Omni Monitor.",
   },
   {
     keywords: ["skills", "skill", "yetkinlik", "yetenek", "tools", "technologies"],
@@ -296,7 +297,7 @@ const assistantAnswers = [
   {
     keywords: ["remote sensing", "uzaktan algılama", "satellite", "satellite imagery", "uydu", "landsat", "sentinel"],
     answer:
-      "Ceren has remote sensing experience through projects using Landsat and Sentinel-2 satellite imagery. In her Turkey Lakes Monitoring Platform project, she used Google Earth Engine and NDWI/MNDWI indices for surface water extraction and temporal change analysis.",
+      "Ceren has remote sensing experience through projects using Landsat and Sentinel-2 satellite imagery. In her Türkiye Lakes Monitoring Platform project, she used Google Earth Engine and NDWI/MNDWI indices for surface water extraction and temporal change analysis.",
   },
   {
     keywords: ["python", "programming", "coding", "kodlama", "yazılım"],
@@ -334,9 +335,9 @@ const assistantAnswers = [
       "Ceren is based in Ankara, Türkiye. Her portfolio also highlights Hacettepe University Beytepe Campus on the map section.",
   },
   {
-    keywords: ["turkey lakes", "turkiyelake", "lake", "göl", "göller"],
+    keywords: ["türkiye gölleri", "turkiyelake", "lake", "göl", "göller"],
     answer:
-      "Turkey Lakes Monitoring Platform is Ceren’s graduation project. It analyzes long-term lake area changes in Türkiye using satellite imagery, Google Earth Engine, NDWI/MNDWI indices, and Web GIS visualization tools. The live website is available from the project card.",
+      "Türkiye Lakes Monitoring Platform is Ceren’s graduation project. It analyzes long-term lake area changes in Türkiye using satellite imagery, Google Earth Engine, NDWI/MNDWI indices, and Web GIS visualization tools. The live website is available from the project card.",
   },
   {
     keywords: ["fig", "fig web gis", "route", "routing"],
