@@ -33,7 +33,7 @@ const projectsData = {
       type: "Web GIS Monitoring Project",
       text: "A Web GIS-based monitoring and visualization project focused on presenting spatial information through interactive maps, analytical panels, and user-oriented dashboard components. The project strengthened practical experience in map-based visualization and GIS-oriented interface design.",
       tags: ["Dashboard", "Monitoring", "GIS", "UI/UX", "Visualization"],
-      link: `${import.meta.env.BASE_URL}omni-monitor.pdf`,
+      link: `${import.meta.env.BASE_URL}omni.pdf`,
       linkText: "View Project",
     },
   ],
@@ -606,7 +606,7 @@ function App() {
               </a>
 
               <a
-                href={`${import.meta.env.BASE_URL}ceren-catak-cv.pdf`}
+                href={`${import.meta.env.BASE_URL}cv.pdf`}
                 target="_blank"
                 rel="noreferrer"
               >
